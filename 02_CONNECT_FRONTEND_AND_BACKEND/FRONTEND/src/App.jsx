@@ -20,6 +20,7 @@ function App() {
       <h1>Chai and full stack</h1>
       <p>JOKES: {jokes.length}</p>
 
+{/* Print all the jokes */}
       {
         jokes.map((joke) => (
           <div key={joke.id}>
