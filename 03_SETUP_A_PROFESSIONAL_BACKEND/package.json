@@ -1,0 +1,20 @@
+{
+  "name": "03_setup_a_professional_backend",
+  "version": "1.0.0",
+  "description": "setup a professional backend",
+  "type": "module",
+  "keywords": [
+    "javascrip",
+    "backend",
+    "subho"
+  ],
+  "license": "ISC",
+  "author": "Subhajit Mondal",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
