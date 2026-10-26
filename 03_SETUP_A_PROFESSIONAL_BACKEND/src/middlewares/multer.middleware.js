@@ -1,5 +1,3 @@
-// Multer middleware for handling file uploads
-
 import multer from "multer" 
 
 
