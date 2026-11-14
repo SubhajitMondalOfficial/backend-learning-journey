@@ -1,5 +1,4 @@
 import multer from "multer" 
-// multer is a middleware for handling multipart/form-data, which is primarily used for uploading files.
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
