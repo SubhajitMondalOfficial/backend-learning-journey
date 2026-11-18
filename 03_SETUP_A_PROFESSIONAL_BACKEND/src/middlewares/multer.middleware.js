@@ -1,7 +1,6 @@
 import multer from "multer" 
 
-// function to store the file in the public/temp folder and keep the original name of the file
-
+ 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
     cb(null, "./public/temp")
