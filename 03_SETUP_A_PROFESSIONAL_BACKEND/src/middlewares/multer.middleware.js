@@ -1,6 +1,6 @@
 import multer from "multer" 
 
-
+// file storage configuration
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
